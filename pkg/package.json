@@ -1,0 +1,15 @@
+{
+  "name": "memory",
+  "collaborators": [
+    "cuerposaco <ivan.rtve@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "memory_bg.wasm",
+    "memory.js",
+    "memory.d.ts"
+  ],
+  "module": "memory.js",
+  "types": "memory.d.ts",
+  "sideEffects": false
+}
