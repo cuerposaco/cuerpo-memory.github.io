@@ -14,8 +14,8 @@ sixtyfps::sixtyfps! {
 
     height: 64px;
     width: 64px;
-    color: solved ? #34CE57 : #3960D5;
-    animate color { duration: 800ms; }
+    color: solved ? #f2f2f2 : #c3c3c3;
+    animate color { duration: 300ms; }
 
     Image {
         source: icon;
@@ -68,8 +68,8 @@ sixtyfps::sixtyfps! {
     for tile[i] in memory_tiles : MemoryTile {
         x: mod(i, 4) * 74px;
         y: floor(i / 4) * 74px;
-        width: 64px;
-        height: 64px;
+        // width: 64px;
+        // height: 64px;
         icon: tile.image;
         open_curtain: tile.image_visible || tile.solved;
         // propagate the solved status from the model to the tile
